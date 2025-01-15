@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.body{
+    font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.secondery-bg{
+    background-color: rgb(255, 248, 243);
+}
+.text-primary{
+    color: rgb(253, 110, 10);
+}
+.nav-link{
+    color: rgb(71, 71, 71);
+}
+.btn-primary{
+    background-color: rgb(253, 110, 10);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: rgb(216, 103, 22);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    scale: 1.1;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
