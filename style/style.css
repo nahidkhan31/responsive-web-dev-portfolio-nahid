@@ -21,6 +21,25 @@
 .nav-link{
     color: rgb(71, 71, 71);
 }
+.btn-skill{
+    background-color: rgb(19, 209, 165);
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn-skill:hover{
+    background-color:  rgb(19, 209, 165);
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    scale: 1.1;
+}
 .btn-primary{
     background-color: rgb(253, 110, 10);
     font-weight: bold;
@@ -96,6 +115,7 @@ nav li a{
     /* border: 1px solid tomato; */
     border-radius: 10px;
     padding: 130px 150px;
+    margin: 30px 150px;
 }
 .section-title{
     align-items: center;
@@ -125,4 +145,33 @@ nav li a{
     font-size: large;
     font-weight: bold;
 }
+/* thrird section */
+.skills{
+    padding: 30px;
+    border-radius: 20px;
+}
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+} 
+.skill{
+    background-color: white;
+    padding: 30px;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    margin-bottom: 40px;
+}  
+.skill:hover{
+    background-color: rgb(205, 205, 202);
+    scale: 1.1;
+}  
+.section-description{
+    padding: 5px 10px;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    margin: 0 35px 20px 35px;
+}   
        
