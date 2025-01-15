@@ -72,7 +72,7 @@ nav li a{
 }
 .banner-content{
     max-width: 580px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .banner-greetings{
     font-size: 45px;
