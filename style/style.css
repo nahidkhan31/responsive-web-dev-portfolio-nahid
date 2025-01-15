@@ -6,7 +6,12 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+       /* First Section */
+.header-first{
+   background-image: url(../images/developer.png), url(../images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;
+}
 .secondery-bg{
     background-color: rgb(255, 248, 243);
 }
@@ -58,3 +63,33 @@ nav li a{
     font-weight: 800;
     font-size: 45px;
 }
+/* banner section */
+.banner{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+    border: 1px solid red;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: small;
+    font-weight: normal;
+}
+.banner-pic{
+    width: 580px;
+}
+
+        /* Second Section */
+
+       
