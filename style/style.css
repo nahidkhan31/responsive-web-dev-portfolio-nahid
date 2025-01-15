@@ -91,5 +91,38 @@ nav li a{
 }
 
         /* Second Section */
-
+.about{
+    align-items: center;
+    /* border: 1px solid tomato; */
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.section-description{
+   align-items: center;
+   font-size: large;
+}
+.about-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* .about-item{
+    font-weight: 500;
+} */
+.item-title{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}
+.item-description{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
        
